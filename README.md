@@ -25,19 +25,19 @@
 
 ### 🏠 Homepage
 ![Homepage](./screenshots/homepage.png)
-*Modern landing page with feature highlights and demo video access*
+*Modern landing page with feature highlights and comprehensive service overview*
 
-### 🎤 Interview Interface
-![Interview Interface](./screenshots/interview-interface.png)
-*Clean interview interface with webcam, recording controls, and real-time feedback*
+### 🎤 Interview Mode Selection
+![Interview Mode](./screenshots/interviewmode.png)
+*Choose between AI Voice Interview and Traditional Video Interview modes*
 
-### 📊 Dashboard
-![Dashboard](./screenshots/dashboard.png)
-*Comprehensive dashboard showing interview history and progress tracking*
+### � Interactive Interview Interface
+![Interview Interface](./screenshots/interview.png)
+*Real-time AI conversation with voice recognition and intelligent responses*
 
-### 📈 Feedback & Analytics
+### 📈 Comprehensive Feedback & Analytics
 ![Feedback](./screenshots/feedback.png)
-*Detailed feedback with ratings, suggestions, and performance analytics*
+*Detailed performance analysis with ratings, suggestions, and improvement areas*
 
 ---
 

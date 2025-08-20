@@ -1,31 +1,56 @@
-# Application Screenshots
+# 📸 AI Mock Interview Platform Screenshots
 
-This directory contains screenshots of the AI Mock Interview Platform.
+This directory contains high-quality screenshots showcasing the AI Mock Interview Platform's features and user interface.
 
-## Current Screenshots
+## 🖼️ Available Screenshots
 
-> **Note**: Add your actual application screenshots here to replace these placeholders.
+### 1. **homepage.png** - Landing Page
+- **Description**: Modern homepage featuring the hero section, service highlights, and call-to-action buttons
+- **Features Shown**: 
+  - Professional landing page design
+  - Service overview cards
+  - Navigation and branding
+  - Feature highlights and benefits
 
-### Required Screenshots:
+### 2. **interviewmode.png** - Interview Mode Selection
+- **Description**: Interface showing the two main interview modes available to users
+- **Features Shown**:
+  - AI Voice Interview option with real-time conversation
+  - Traditional Video Interview option for practice
+  - Mode selection interface and descriptions
+  - User-friendly navigation between options
 
-1. **homepage.png** - Landing page with hero section and features
-2. **interview-interface.png** - Main interview interface with webcam and controls  
-3. **dashboard.png** - User dashboard with interview history
-4. **feedback.png** - Feedback page with ratings and analytics
+### 3. **interview.png** - Active Interview Interface
+- **Description**: Real-time interview session in progress with AI interaction
+- **Features Shown**:
+  - Live interview conversation interface
+  - AI-generated questions and responses
+  - Voice recognition and speech-to-text functionality
+  - Clean, distraction-free interview environment
 
-### How to Add Screenshots:
+### 4. **feedback.png** - Performance Analytics
+- **Description**: Comprehensive feedback and analytics page after interview completion
+- **Features Shown**:
+  - Detailed performance ratings and scores
+  - AI-generated feedback and improvement suggestions
+  - Question-by-question analysis
+  - Overall interview assessment and recommendations
 
-1. Take high-quality screenshots of your application (1920x1080 recommended)
-2. Name them according to the list above
-3. Replace this README.md file
+## 📋 Screenshot Specifications
 
-### Example Repository Structure:
-```
-screenshots/
-├── homepage.png
-├── interview-interface.png  
-├── dashboard.png
-└── feedback.png
-```
+- **Resolution**: 1920x1080 (Full HD)
+- **Format**: PNG with transparency support
+- **Quality**: High-resolution for clear display
+- **Purpose**: Documentation and repository showcase
 
-Once you add real screenshots, your README will display them automatically!
+## 🎯 Usage
+
+These screenshots are automatically displayed in the main README.md file to showcase the platform's capabilities to potential users and contributors.
+
+## 📝 Update Instructions
+
+To update screenshots:
+1. Take new screenshots at 1920x1080 resolution
+2. Save with the same filenames to maintain README links
+3. Ensure screenshots show the latest UI improvements
+4. Commit and push changes to update repository showcase
