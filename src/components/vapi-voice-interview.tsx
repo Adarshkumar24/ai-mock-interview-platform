@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Mic, MicOff, Phone, PhoneOff } from "lucide-react";
+import { Phone, PhoneOff } from "lucide-react";
 import { Interview } from '@/types';
 
 interface VapiVoiceInterviewProps {
@@ -15,12 +15,12 @@ interface VapiVoiceInterviewProps {
 // npm install @vapi-ai/web-sdk
 
 export const VapiVoiceInterview = ({ 
-  interview, 
+  // interview, 
   questions, 
-  onInterviewComplete 
+  // onInterviewComplete 
 }: VapiVoiceInterviewProps) => {
   const [isConnected, setIsConnected] = useState(false);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentQuestionIndex] = useState(0);
   const [isVapiAvailable, setIsVapiAvailable] = useState(false);
 
   useEffect(() => {
