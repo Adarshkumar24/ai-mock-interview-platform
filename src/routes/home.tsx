@@ -79,15 +79,14 @@ const HomePage = () => {
             Inteviews Copilot&copy;
           </div>
 
-          <div className="hidden md:block absolute w-80 bottom-4 right-4 px-4 py-2 rounded-md bg-white/60 backdrop-blur-md">
-            <h2 className="text-neutral-800 font-semibold">Developer</h2>
-            <p className="text-sm text-neutral-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              distinctio natus, quos voluptatibus magni sapiente.
+          <div className="hidden md:block absolute w-80 bottom-4 right-4 px-4 py-2 rounded-md bg-white/60 backdrop-blur-md transform transition-all duration-300 hover:bg-white/80 hover:shadow-2xl hover:scale-105 hover:-translate-y-2 cursor-pointer group">
+            <h2 className="text-neutral-800 font-semibold group-hover:text-blue-600 transition-colors duration-300">Developer</h2>
+            <p className="text-sm text-neutral-600 group-hover:text-neutral-700 transition-colors duration-300">
+              Practice coding interviews with AI-powered questions tailored to your experience level. Get real-time feedback and improve your technical skills.
             </p>
 
-            <Button className="mt-3">
-              Generate <Sparkles />
+            <Button className="mt-3 transition-all duration-300 group-hover:shadow-lg group-hover:scale-105 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
+              Generate <Sparkles className="ml-1 group-hover:rotate-12 transition-transform duration-300" />
             </Button>
           </div>
         </div>

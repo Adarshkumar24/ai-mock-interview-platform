@@ -21,17 +21,17 @@ import { Link } from "react-router-dom";
 export const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-emerald-50">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-6 py-20">
         {/* Hero Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+        <div className="text-center mb-24">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-8">
             Our Services
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
             Comprehensive AI-powered interview preparation services designed to help you succeed 
             in today's competitive job market.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link to="/generate">
               <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-8 py-4 text-lg">
                 <Sparkles className="mr-2" />
@@ -49,69 +49,71 @@ export const ServicesPage = () => {
         </div>
 
         {/* Main Services */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid lg:grid-cols-2 gap-12 mb-24">
           {/* AI Voice Interview */}
-          <Card className="border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            <CardHeader className="text-center pb-4">
-              <div className="mx-auto w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <Mic className="w-10 h-10 text-blue-600" />
+          <Card className="border-2 border-blue-200 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 group bg-gradient-to-br from-white to-blue-50 hover:from-blue-50 hover:to-indigo-50">
+            <CardHeader className="text-center pb-4 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-400/10 to-indigo-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="mx-auto w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-blue-200 group-hover:shadow-lg transition-all duration-300 relative z-10">
+                <Mic className="w-10 h-10 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
               </div>
-              <CardTitle className="text-2xl text-blue-700">AI Voice Interview</CardTitle>
-              <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-100">Most Popular</Badge>
+              <CardTitle className="text-2xl text-blue-700 group-hover:text-blue-800 transition-colors duration-300 relative z-10">AI Voice Interview</CardTitle>
+              <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-200 group-hover:shadow-md transition-all duration-300 relative z-10">Most Popular</Badge>
             </CardHeader>
-            <CardContent className="space-y-6">
-              <p className="text-gray-600 text-center">
+            <CardContent className="space-y-6 relative z-10">
+              <p className="text-gray-600 text-center group-hover:text-gray-700 transition-colors duration-300">
                 Experience realistic interview conversations with our advanced AI that adapts to your responses and provides intelligent follow-up questions.
               </p>
               
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <h4 className="font-medium text-gray-800">Natural Conversation Flow</h4>
-                    <p className="text-sm text-gray-600">AI speaks and listens like a real interviewer</p>
+                    <h4 className="font-medium text-gray-800 group-hover:text-gray-900 transition-colors duration-300">Natural Conversation Flow</h4>
+                    <p className="text-sm text-gray-600 group-hover:text-gray-700 transition-colors duration-300">AI speaks and listens like a real interviewer</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <h4 className="font-medium text-gray-800">Dynamic Question Generation</h4>
-                    <p className="text-sm text-gray-600">Questions adapt based on your responses and skill level</p>
+                    <h4 className="font-medium text-gray-800 group-hover:text-gray-900 transition-colors duration-300">Dynamic Question Generation</h4>
+                    <p className="text-sm text-gray-600 group-hover:text-gray-700 transition-colors duration-300">Questions adapt based on your responses and skill level</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <h4 className="font-medium text-gray-800">Real-time Feedback</h4>
-                    <p className="text-sm text-gray-600">Instant analysis of your responses and suggestions</p>
+                    <h4 className="font-medium text-gray-800 group-hover:text-gray-900 transition-colors duration-300">Real-time Feedback</h4>
+                    <p className="text-sm text-gray-600 group-hover:text-gray-700 transition-colors duration-300">Instant analysis of your responses and suggestions</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <h4 className="font-medium text-gray-800">Multiple Difficulty Levels</h4>
-                    <p className="text-sm text-gray-600">Easy, Moderate, and Difficult interview scenarios</p>
+                    <h4 className="font-medium text-gray-800 group-hover:text-gray-900 transition-colors duration-300">Multiple Difficulty Levels</h4>
+                    <p className="text-sm text-gray-600 group-hover:text-gray-700 transition-colors duration-300">Easy, Moderate, and Difficult interview scenarios</p>
                   </div>
                 </div>
               </div>
 
               <Link to="/generate">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-6">
+                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-6 group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
                   Try Voice Interview
-                  <ArrowRight className="ml-2 w-5 h-5" />
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
               </Link>
             </CardContent>
           </Card>
 
           {/* Traditional Video Interview */}
-          <Card className="border-2 border-emerald-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            <CardHeader className="text-center pb-4">
-              <div className="mx-auto w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-4">
-                <Video className="w-10 h-10 text-emerald-600" />
+          <Card className="border-2 border-emerald-200 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 group bg-gradient-to-br from-white to-emerald-50 hover:from-emerald-50 hover:to-green-50">
+            <CardHeader className="text-center pb-4 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 to-green-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="mx-auto w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-emerald-200 group-hover:shadow-lg transition-all duration-300 relative z-10">
+                <Video className="w-10 h-10 text-emerald-600 group-hover:scale-110 transition-transform duration-300" />
               </div>
-              <CardTitle className="text-2xl text-emerald-700">Traditional Video Interview</CardTitle>
-              <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-100">Self-Paced</Badge>
+              <CardTitle className="text-2xl text-emerald-700 group-hover:text-emerald-800 transition-colors duration-300 relative z-10">Traditional Video Interview</CardTitle>
+              <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-200 group-hover:shadow-md transition-all duration-300 relative z-10">Self-Paced</Badge>
             </CardHeader>
             <CardContent className="space-y-6">
               <p className="text-gray-600 text-center">
@@ -160,9 +162,9 @@ export const ServicesPage = () => {
         </div>
 
         {/* Interview Categories */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Specialized Interview Categories</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mb-24">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-16">Specialized Interview Categories</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="text-center border-2 border-gray-200 hover:border-purple-300 transition-all duration-300">
               <CardHeader>
                 <div className="mx-auto w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
@@ -223,9 +225,9 @@ export const ServicesPage = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Platform Features</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mb-24">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-16">Platform Features</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
             <div className="text-center">
               <div className="mx-auto w-16 h-16 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full flex items-center justify-center mb-4">
                 <Zap className="w-8 h-8 text-blue-600" />
@@ -260,112 +262,15 @@ export const ServicesPage = () => {
           </div>
         </div>
 
-        {/* Pricing Plans Preview */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Service Tiers</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Free Tier */}
-            <Card className="border-2 border-gray-200 shadow-lg">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-gray-700">Free Tier</CardTitle>
-                <div className="text-3xl font-bold text-gray-800 mt-2">$0</div>
-                <p className="text-gray-600">Perfect for getting started</p>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">5 AI interviews per day</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Basic feedback</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Default interview templates</span>
-                  </div>
-                </div>
-                <Button variant="outline" className="w-full">Current Plan</Button>
-              </CardContent>
-            </Card>
 
-            {/* Premium Tier */}
-            <Card className="border-2 border-blue-400 shadow-xl relative">
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                <Badge className="bg-blue-600 text-white px-3 py-1">Most Popular</Badge>
-              </div>
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-blue-700">Premium</CardTitle>
-                <div className="text-3xl font-bold text-blue-800 mt-2">$9.99<span className="text-sm font-normal">/month</span></div>
-                <p className="text-gray-600">For serious job seekers</p>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Unlimited AI interviews</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Advanced feedback & analytics</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Custom interview creation</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Priority support</span>
-                  </div>
-                </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">Upgrade Soon</Button>
-              </CardContent>
-            </Card>
-
-            {/* Enterprise Tier */}
-            <Card className="border-2 border-purple-200 shadow-lg">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-purple-700">Enterprise</CardTitle>
-                <div className="text-3xl font-bold text-purple-800 mt-2">Custom</div>
-                <p className="text-gray-600">For organizations</p>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">White-label solution</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Bulk user management</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Custom integrations</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm">Dedicated support</span>
-                  </div>
-                </div>
-                <Link to="/contact">
-                  <Button variant="outline" className="w-full border-purple-300 text-purple-700 hover:bg-purple-50">
-                    Contact Sales
-                  </Button>
-                </Link>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
 
         {/* Call to Action */}
-        <div className="text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Ready to Transform Your Interview Skills?</h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <div className="text-center pt-12">
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">Ready to Transform Your Interview Skills?</h2>
+          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
             Choose the service that fits your needs and start practicing with our AI-powered interview platform today.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link to="/generate">
               <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-8 py-4 text-lg">
                 <Sparkles className="mr-2" />

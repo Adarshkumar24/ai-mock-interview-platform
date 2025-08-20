@@ -285,46 +285,47 @@ const DefaultInterviewCard = ({ interview, onClick }: DefaultInterviewCardProps)
   
   return (
     <Card 
-      className="cursor-pointer transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border-2 hover:border-emerald-300"
+      className="cursor-pointer transition-all duration-500 hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 border-2 hover:border-emerald-300 group bg-gradient-to-br from-white to-gray-50 hover:from-emerald-50 hover:to-blue-50"
       onClick={onClick}
     >
-      <CardHeader className="pb-3">
-        <div className="flex items-start justify-between">
+      <CardHeader className="pb-3 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 to-blue-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div className="flex items-start justify-between relative z-10">
           <div className="flex-1">
             <div className="flex items-center gap-2 mb-2">
               <Badge 
-                className={`${difficultyColors.bg} ${difficultyColors.text} ${difficultyColors.border} border`}
+                className={`${difficultyColors.bg} ${difficultyColors.text} ${difficultyColors.border} border group-hover:shadow-md transition-all duration-300`}
               >
                 {interview.difficulty}
               </Badge>
-              <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
+              <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200 group-hover:bg-blue-100 group-hover:shadow-md transition-all duration-300">
                 Default
               </Badge>
             </div>
-            <CardTitle className="text-lg leading-tight">{interview.position}</CardTitle>
+            <CardTitle className="text-lg leading-tight group-hover:text-emerald-600 transition-colors duration-300">{interview.position}</CardTitle>
           </div>
         </div>
       </CardHeader>
       
-      <CardContent className="space-y-3">
-        <p className="text-sm text-gray-600 line-clamp-2">
+      <CardContent className="space-y-3 relative z-10">
+        <p className="text-sm text-gray-600 line-clamp-2 group-hover:text-gray-700 transition-colors duration-300">
           {interview.description}
         </p>
         
         <div className="space-y-2">
-          <div className="flex items-center justify-between text-xs text-gray-500">
+          <div className="flex items-center justify-between text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-300">
             <span>Experience: {interview.experience} years</span>
             <span>{interview.questions?.length || 5} questions</span>
           </div>
           
-          <div className="text-xs text-gray-500">
+          <div className="text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-300">
             <span className="font-medium">Tech Stack:</span> {interview.techStack}
           </div>
         </div>
         
         <div className="pt-2">
           <Button 
-            className="w-full bg-emerald-600 hover:bg-emerald-700 text-sm"
+            className="w-full bg-emerald-600 hover:bg-emerald-700 text-sm group-hover:shadow-lg group-hover:scale-105 transition-all duration-300"
             onClick={(e) => {
               e.stopPropagation();
               onClick();
