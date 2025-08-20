@@ -48,10 +48,13 @@
 - **Real-time Speech Recognition**: Advanced speech-to-text conversion for natural conversation flow
 - **Intelligent Feedback**: Comprehensive analysis of answers with improvement suggestions
 
-### 🎥 **Recording & Playback**
-- **Video Recording**: Optional webcam recording for self-review (never stored on servers)
-- **Audio Analysis**: Voice pattern analysis and speech quality assessment
-- **Demo Videos**: Built-in demo functionality to showcase platform capabilities
+### 🎥 **Voice & Recording Features**
+- **🎤 Voice Interviews**: Real-time voice conversation mode using Web Speech API
+- **🗣️ Speech Recognition**: Advanced speech-to-text conversion for natural conversation flow
+- **🔊 Text-to-Speech**: AI speaks questions aloud for immersive interview experience
+- **📹 Video Recording**: Optional webcam recording for self-review (never stored on servers)
+- **🎵 Audio Analysis**: Voice pattern analysis and speech quality assessment
+- **🎬 Demo Videos**: Built-in demo functionality to showcase platform capabilities
 
 ### 📊 **Analytics & Progress Tracking**
 - **Performance Metrics**: Detailed scoring system with ratings out of 10
@@ -83,6 +86,7 @@
 - ![Firebase](https://img.shields.io/badge/Firebase-11.2.0-FFCA28?logo=firebase) **Firebase** for real-time database and storage
 - ![Clerk](https://img.shields.io/badge/Clerk-5.22.6-6C47FF?logo=clerk) **Clerk** for authentication
 - ![Gemini](https://img.shields.io/badge/Gemini-AI-4285F4?logo=google) **Google Gemini AI** for question generation
+- ![Web Speech API](https://img.shields.io/badge/Web%20Speech%20API-Voice-FF6B6B?logo=html5) **Web Speech API** for voice recognition & synthesis
 
 ### **Development Tools**
 - ![ESLint](https://img.shields.io/badge/ESLint-9.17.0-4B32C3?logo=eslint) **ESLint** for code quality
@@ -176,10 +180,12 @@ ai-mock-interview-platform/
 
 ### **Interview Flow**
 1. 🎯 **Setup**: User selects job role, experience level, and tech stack
-2. 🤖 **Generation**: AI creates personalized interview questions
-3. 🎥 **Recording**: User answers questions with optional video recording
-4. 📊 **Analysis**: AI analyzes responses and provides detailed feedback
-5. 📈 **Review**: Comprehensive feedback with ratings and suggestions
+2. 📝 **Mode Selection**: Choose between Traditional (text-based) or Voice Interview modes
+3. 🤖 **Generation**: AI creates personalized interview questions
+4. � **Voice Interview**: AI speaks questions, user responds via voice (Web Speech API)
+5. 📹 **Recording**: User answers questions with optional video recording
+6. 📊 **Analysis**: AI analyzes responses and provides detailed feedback
+7. 📈 **Review**: Comprehensive feedback with ratings and suggestions
 
 ### **Question Categories**
 - 💻 **Technical Skills**: Programming, frameworks, tools
