@@ -1,5 +1,12 @@
 import { SignIn } from "@clerk/clerk-react";
 
 export const SignInPage = () => {
-  return <SignIn path="/signin" />;
+  return (
+    <SignIn 
+      path="/signin" 
+      signUpUrl="/signup"
+      afterSignInUrl="/"
+      redirectUrl="/"
+    />
+  );
 };

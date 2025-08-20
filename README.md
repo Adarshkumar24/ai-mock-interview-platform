@@ -15,7 +15,7 @@
 
 **An AI-powered mock interview platform that helps job seekers practice and improve their interview skills with real-time feedback and comprehensive analytics.**
 
-[🚀 Live Demo](https://ai-mock-interview-platform-two-tau.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
+[🚀 Live Demo](https://ai-mock-interview-platform.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
 
 </div>
 
@@ -123,7 +123,26 @@
    cp .env.example .env.local
    ```
    
-   Fill in your environment variables:
+   ### **🔧 Detailed Environment Configuration**
+   
+   #### **Firebase Setup**
+   1. Go to [Firebase Console](https://console.firebase.google.com)
+   2. Create a new project or select existing one
+   3. Go to Project Settings → Your apps → Add app (Web)
+   4. Copy the configuration values:
+   
+   #### **Clerk Authentication Setup**  
+   1. Sign up at [Clerk](https://clerk.com)
+   2. Create a new application
+   3. Go to Dashboard → API Keys
+   4. Copy the Publishable Key
+   
+   #### **Google Gemini AI Setup**
+   1. Visit [Google AI Studio](https://aistudio.google.com)
+   2. Click "Get API Key" 
+   3. Create a new API key for your project
+   
+   Fill in your `.env.local` file:
    ```env
    # Firebase Configuration
    VITE_FIREBASE_API_KEY=your_firebase_api_key
@@ -139,6 +158,13 @@
    # Google Gemini AI
    VITE_GOOGLE_GEMINI_API_KEY=your_gemini_api_key
    ```
+   
+   ### **🚀 Vercel Deployment Environment Variables**
+   For the deployed version to work properly, add these same environment variables to your Vercel project:
+   1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+   2. Select your project → Settings → Environment Variables
+   3. Add each variable with the same names and your actual values
+   4. Redeploy the project for changes to take effect
 
 4. **Start Development Server**
    ```bash
