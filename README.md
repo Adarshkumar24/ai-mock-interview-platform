@@ -15,7 +15,7 @@
 
 **An AI-powered mock interview platform that helps job seekers practice and improve their interview skills with real-time feedback and comprehensive analytics.**
 
-[🚀 Live Demo](https://ai-mock-interview-platform.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
+[🚀 Live Demo](https://ai-mock-interview-platform-two-tau.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
 
 </div>
 
@@ -24,19 +24,19 @@
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](./screenshots/homepage.png)
+![Homepage](https://raw.githubusercontent.com/Adarshkumar24/ai-mock-interview-platform/main/screenshots/homepage.png)
 *Modern landing page with feature highlights and comprehensive service overview*
 
 ### 🎤 Interview Mode Selection
-![Interview Mode](./screenshots/interviewmode.png)
+![Interview Mode](https://raw.githubusercontent.com/Adarshkumar24/ai-mock-interview-platform/main/screenshots/interviewmode.png)
 *Choose between AI Voice Interview and Traditional Video Interview modes*
 
-### � Interactive Interview Interface
-![Interview Interface](./screenshots/interview.png)
+### 💬 Interactive Interview Interface
+![Interview Interface](https://raw.githubusercontent.com/Adarshkumar24/ai-mock-interview-platform/main/screenshots/interview.png)
 *Real-time AI conversation with voice recognition and intelligent responses*
 
 ### 📈 Comprehensive Feedback & Analytics
-![Feedback](./screenshots/feedback.png)
+![Feedback](https://raw.githubusercontent.com/Adarshkumar24/ai-mock-interview-platform/main/screenshots/feedback.png)
 *Detailed performance analysis with ratings, suggestions, and improvement areas*
 
 ---
