@@ -1,7 +1,25 @@
 {
-  "name": "ai-mock-interview-react-type",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ai-mock-interview-platform",
+  "private": false,
+  "version": "1.0.0",
+  "description": "AI-powered mock interview platform with voice recognition, real-time feedback, and comprehensive analytics",
+  "author": "Adarsh Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adarshkumar24/ai-mock-interview-platform.git"
+  },
+  "homepage": "https://ai-mock-interview-platform-59u2zsbk1-adarsh-s-projects-f86a01e7.vercel.app",
+  "keywords": [
+    "ai",
+    "mock-interview",
+    "interview-preparation",
+    "voice-recognition",
+    "react",
+    "typescript",
+    "firebase",
+    "gemini-ai"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
