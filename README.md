@@ -300,4 +300,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Adarshkumar24.ai-mock-interview-platform)
 
+<!-- Repository updated: 2025-08-21 -->
+
 </div>
