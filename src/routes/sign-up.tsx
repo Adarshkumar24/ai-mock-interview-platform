@@ -5,8 +5,7 @@ export const SignUpPage = () => {
     <SignUp 
       path="/signup" 
       signInUrl="/signin"
-      afterSignUpUrl="/"
-      redirectUrl="/"
+      fallbackRedirectUrl="/"
     />
   );
 };

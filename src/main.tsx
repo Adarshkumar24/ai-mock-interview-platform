@@ -22,8 +22,8 @@ createRoot(document.getElementById("root")!).render(
       afterSignOutUrl="/"
       signInUrl="/signin"
       signUpUrl="/signup"
-      afterSignInUrl="/"
-      afterSignUpUrl="/"
+      signInFallbackRedirectUrl="/"
+      signUpFallbackRedirectUrl="/"
     >
       <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
         <App />

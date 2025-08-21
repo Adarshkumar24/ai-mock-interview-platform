@@ -15,7 +15,7 @@
 
 **An AI-powered mock interview platform that helps job seekers practice and improve their interview skills with real-time feedback and comprehensive analytics.**
 
-[🚀 Live Demo](https://ai-mock-interview-platform.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
+[🚀 Live Demo](https://ai-mock-interview-platform-59u2zsbk1-adarsh-s-projects-f86a01e7.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
 
 </div>
 
