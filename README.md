@@ -15,7 +15,9 @@
 
 **An AI-powered mock interview platform that helps job seekers practice and improve their interview skills with real-time feedback and comprehensive analytics.**
 
-[🚀 Live Demo](https://ai-mock-interview-platform-snowy-one.vercel.app/) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
+**🌐 Live Demo: https://ai-mock-interview-platform-snowy-one.vercel.app**
+
+[🚀 Live Demo](https://ai-mock-interview-platform-snowy-one.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues) • [✨ Request Feature](https://github.com/Adarshkumar24/ai-mock-interview-platform/issues)
 
 </div>
 
